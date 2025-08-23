@@ -1,30 +1,30 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	"log"
 
-	// "github.com/elastic/go-elasticsearch/v8"
+	"github.com/elastic/go-elasticsearch/v8"
 	"github.com/gofiber/fiber/v2"
 )
 
 func main() {
-    // // إنشاء عميل Elasticsearch
-    // es, err := elasticsearch.NewDefaultClient()
-    // if err != nil {
-    //     fmt.Printf("خطأ في إنشاء العميل: %s\n", err)
-    //     return
-    // }
+    // إنشاء عميل Elasticsearch
+    es, err := elasticsearch.NewDefaultClient()
+    if err != nil {
+        fmt.Printf("خطأ في إنشاء العميل: %s\n", err)
+        return
+    }
 
-    // // اختبار الاتصال عن طريق الحصول على معلومات الكلاستر
-    // res, err := es.Info()
-    // if err != nil {
-    //     fmt.Printf("خطأ في Info: %s\n", err)
-    //     return
-    // }
-    // defer res.Body.Close()
+    // اختبار الاتصال عن طريق الحصول على معلومات الكلاستر
+    res, err := es.Info()
+    if err != nil {
+        fmt.Printf("خطأ في Info: %s\n", err)
+        return
+    }
+    defer res.Body.Close()
 
-    // fmt.Println(res)
+    fmt.Println(res)
 
 
 
