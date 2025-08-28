@@ -860,10 +860,21 @@ github.com/go-logr/logr/funcr
 # github.com/go-logr/stdr v1.2.2
 ## explicit; go 1.16
 github.com/go-logr/stdr
-# github.com/go-viper/mapstructure/v2 v2.2.1
+# github.com/go-viper/mapstructure/v2 v2.3.0
 ## explicit; go 1.18
 github.com/go-viper/mapstructure/v2
 github.com/go-viper/mapstructure/v2/internal/errors
+# github.com/goccy/go-json v0.10.5
+## explicit; go 1.19
+github.com/goccy/go-json
+github.com/goccy/go-json/internal/decoder
+github.com/goccy/go-json/internal/encoder
+github.com/goccy/go-json/internal/encoder/vm
+github.com/goccy/go-json/internal/encoder/vm_color
+github.com/goccy/go-json/internal/encoder/vm_color_indent
+github.com/goccy/go-json/internal/encoder/vm_indent
+github.com/goccy/go-json/internal/errors
+github.com/goccy/go-json/internal/runtime
 # github.com/gofiber/fiber/v2 v2.52.9
 ## explicit; go 1.20
 github.com/gofiber/fiber/v2
@@ -873,6 +884,9 @@ github.com/gofiber/fiber/v2/utils
 # github.com/google/uuid v1.6.0
 ## explicit
 github.com/google/uuid
+# github.com/kelseyhightower/envconfig v1.4.0
+## explicit
+github.com/kelseyhightower/envconfig
 # github.com/klauspost/compress v1.17.9
 ## explicit; go 1.20
 github.com/klauspost/compress/flate
@@ -940,6 +954,14 @@ github.com/valyala/fasthttp/stackless
 # github.com/valyala/tcplisten v1.0.0
 ## explicit; go 1.12
 github.com/valyala/tcplisten
+# github.com/weisshorn-cyd/gocti v0.37.0
+## explicit; go 1.24.4
+github.com/weisshorn-cyd/gocti
+github.com/weisshorn-cyd/gocti/api
+github.com/weisshorn-cyd/gocti/entity
+github.com/weisshorn-cyd/gocti/graphql
+github.com/weisshorn-cyd/gocti/list
+github.com/weisshorn-cyd/gocti/system
 # go.opentelemetry.io/auto/sdk v1.1.0
 ## explicit; go 1.22.0
 go.opentelemetry.io/auto/sdk

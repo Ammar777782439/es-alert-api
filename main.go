@@ -7,6 +7,20 @@ import (
 	"github.com/elastic/go-elasticsearch/v8"
 	"github.com/gofiber/fiber/v2"
 	 "github.com/spf13/viper"
+	 "context"
+	"crypto/tls"
+	"fmt"
+	"net/http"
+	"reputation/config"
+	"reputation/logger"
+	"reputation/repu/common/utils"
+	"strings"
+	"sync"
+	"time"
+
+	"github.com/weisshorn-cyd/gocti"
+	"github.com/weisshorn-cyd/gocti/entity"
+	"github.com/weisshorn-cyd/gocti/list"
 )
 
 func main() {

@@ -7,9 +7,11 @@ require github.com/elastic/go-elasticsearch/v8 v8.19.0
 require (
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
-	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
+	github.com/go-viper/mapstructure/v2 v2.3.0 // indirect
+	github.com/goccy/go-json v0.10.5 // indirect
 	github.com/gofiber/fiber/v2 v2.52.9 // indirect
 	github.com/google/uuid v1.6.0 // indirect
+	github.com/kelseyhightower/envconfig v1.4.0 // indirect
 	github.com/klauspost/compress v1.17.9 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -39,6 +41,7 @@ require (
 	github.com/elastic/go-elasticsearch/v9 v9.1.0
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
+	github.com/weisshorn-cyd/gocti v0.37.0
 	go.opentelemetry.io/otel v1.35.0 // indirect
 	go.opentelemetry.io/otel/metric v1.35.0 // indirect
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
