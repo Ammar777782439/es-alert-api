@@ -21,6 +21,8 @@ import (
 	"github.com/weisshorn-cyd/gocti"
 	"github.com/weisshorn-cyd/gocti/entity"
 	"github.com/weisshorn-cyd/gocti/list"
+	"github.com/rs/zerolog/log"
+	
 )
 
 func main() {
