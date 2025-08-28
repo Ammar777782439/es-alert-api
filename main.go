@@ -6,6 +6,7 @@ import (
 
 	"github.com/elastic/go-elasticsearch/v8"
 	"github.com/gofiber/fiber/v2"
+	 "github.com/spf13/viper"
 )
 
 func main() {
